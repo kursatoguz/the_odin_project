@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54229cb74b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    
+<h1>Rock Paper Scissors</h1>
+<hr>
+<div class="icons">
+    <i id="rock"class="fas fa-hand-rock"></i>
+    <i id="paper"class="fas fa-hand-paper"></i>
+    <i id="scissors"class="fas fa-hand-scissors"></i>
+</div>
+
+<div class="scores">
+    <div class="player">
+        <p>Player Score: <span id="p-score">0</span></p>
+        <p id="player-choose"></p>
+    </div>
+    <div ><p id="tie">Tie</p></div>
+    <div class="computer">
+        <p>Computer Score: <span id="c-score">0</span></p>
+        <p id="computer-choose"></p>
+    </div>
+   
+</div>
+
+<div id = "modal" class="modal-container">  
+    <div class="modal">
+    <div id = "result" class="result">Result goes here</div>
+    <button id="playAgain-btn">Play Again</button>
+</div>
+</div>
+    <script src = "script.js"></script>
+</body>
+</html>

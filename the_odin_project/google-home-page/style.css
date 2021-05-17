@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left a{
+    padding: 10px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right a{
+    padding: 10px;
+}
+
+.icon{
+  height: 20px;
+  width: 20px;
+  background-image: url("images/google-apps.svg");
+}
+.btn{
+    font-size: 14px;
+    background-color: #2b7de9;
+    color: #fff;
+    margin: 0 8px 0 8px;
+    padding: 9px 23px 9px 23px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.center{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 600px
+}
+.search-box input{
+    width: 100%;
+    margin: 20px;
+    padding: 14px 12px;
+    border-radius: 25px;
+    border: 1px solid #e1e1e1;
+    outline: none;
+    
+}
+.search-box input:hover{
+    box-shadow: -1px 2px 16px 0px #e1e1e1;
+}
+.search-box input:focus{
+    box-shadow: -1px 2px 16px 0px #e1e1e1;
+}
+.search-box i{
+    position: absolute;
+    color: gray;
+    cursor: pointer;
+}
+.search-box i:hover{
+    font-size: 22px;
+    opacity: 0.9;
+}
+.search-box .fa-search{
+    left:35px;
+}
+.search-box .fa-keyboard{
+    right: 70px;
+}
+.search-box .fa-microphone{ 
+    right: 40px;
+}
+.buttons button{
+    background-color: #eee;
+    color:#3b3b3b;
+}
+.buttons button:hover{
+    border: 1px solid #e1e1e1;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e1e1;
+ 
+}
+footer a{
+   font-size: 15px;
+   text-decoration: none;
+   color: #70757a;
+   margin:10px;
+   
+}
+footer a:hover{
+    text-decoration: underline;
+}
