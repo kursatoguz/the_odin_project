@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "KoHo",sans-serif;
+}
+body{
+    display: flex;
+    background-color: #202020;
+}
+.container{
+   margin-top: 75px;
+   margin-left: 200px;
+   width: 600px;
+   height: 600px;
+   border: 1px solid black;
+   box-shadow:1px 2px 20px snow;
+   background-color: snow;
+   
+}
+.menu {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: 100vh;
+    background-color: snow;
+    
+}
+.row {
+    display: flex;
+}
+.box 
+{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+#clear{
+    padding: 10px 24px;
+    border: none;
+    background-color:#00559a;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.slider {
+    width: 200px;
+    margin: 10px 0;
+}
+.radio-buttons{
+    margin-top: 10px;   
+    width: 200px;
+}
+.radio-buttons input{
+    margin-bottom: 15px;
+}
