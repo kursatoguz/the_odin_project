@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+   
+}
+.output{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    position: relative;
+    background-color: snow;
+}
+  .span-two {
+    grid-column: span 2;
+  }  
+  button {
+      font-size: 20px;
+      border: none;
+      background-color: snow;
+      color: gray;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+      border-radius: 3px;
+  }
+  button:hover {
+      background-color: white;
+      color: black;
+  }
+  button:active{
+      transform: translate(1px);
+      background-color: white;
+  }
+  .color{
+      color:#F08080 ;
+      font-weight: bold;
+  }
+  .color:hover{
+    color: red;
+  }
+  .brand {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      color: #F08080;
+      font-size: 15px;
+  }
+  #operand{
+      color: gray;
+  }
