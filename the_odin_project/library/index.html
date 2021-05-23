@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54229cb74b.js" crossorigin="anonymous"></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <div class="logo">
+        <h1>My Library</h1>
+    </div>
+    <div class="lib-info">
+        <h4 id="total">Total Books: 0</h4>
+        <h4 id="read">Books Read: 0</h4>
+        <h4 id ="unread">Unread Books: 0</h4>
+    </div>
+    </nav>
+    <form >
+        <div class="inputs">
+        <div class="book-name col">
+          <label for="name">Book</label>
+          <input type="text" class="form-input" id="name" />
+        </div>
+        <div class="author col">
+          <label for="author">Author</label>
+          <input type="text" class="form-input" id="author" />
+        </div>
+        <div class="page col">
+            <label for="page">Page</label>
+            <input type="number" id="page" class="form-input">
+        </div>
+        <div class="status col">
+          <label for="status">Status</label>
+          <select name="status" id="status" class="status">
+            <option value="read">Read</option>
+            <option value="not read">Not read</option>
+          </select>
+        </div>
+    </div>
+        <button id="submit" class="submit-btn">Submit</button>
+      </form>
+<table id="table">
+    <tr>
+      <th>Name</th>
+      <th>Author</th>
+      <th>Page</th>
+      <th>Status</th>
+      <th>Remove</th>
+    </tr>
+  
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
