@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1{
+    
+    margin: 30px 90px;
+    color: white;
+}
+.container {
+    display: flex;
+}
+.menu{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid white;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+    margin: 40px 20px;
+    padding: 10px 24px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color: rgb(0,150,150);
+}
+.buttons button:active{
+    transform: translateY(2px)
+}
+.scores{
+    margin: 40px 90px;
+}
+.scores p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#tie{
+    display: none;
+}
+#display-result{
+    display: none;
+}
+.play-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 60%;
+    margin-top: 100px;
+}
+.board{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row{
+    display: flex;
+    border-bottom:3px solid white ;
+}
+.row div {
+    height: 150px;
+    width: 150px;
+}
+.row div:nth-child(-n+2) {
+    border-right:3px solid white;
+}
+.row:last-child{
+    border:none;
+}
