@@ -81,7 +81,7 @@ function addTask() {
     deleteFolder();
   }
 }
-
+//find current folder
 function findActiveTask() {
   var activeList = document.getElementsByClassName("active");
   var listNames = document.getElementsByClassName("list-folder");
