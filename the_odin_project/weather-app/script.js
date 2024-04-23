@@ -1,4 +1,4 @@
-const apikey = "477d6f9fba0ebc523d0cd14814a71052";
+const apikey="";
 const url = (city) =>
   `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 
